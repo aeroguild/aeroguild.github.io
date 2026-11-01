@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AERO GUILD | The Global Aviation Community</title>
+<meta name="description" content="Learn, connect and advance with a global aviation community.">
+<style>
+  :root { --navy:#0B1F3A; --navy2:#13294B; --silver:#B8C2CC; --ink:#1B2430; --muted:#5B6673; --bg:#FFFFFF; --soft:#F3F5F8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  a { color:inherit; text-decoration:none; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
+  header { border-bottom:1px solid #E4E8ED; }
+  .nav { display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:18px; color:var(--navy); }
+  .mark { width:34px; height:34px; border-radius:8px; background:var(--navy); display:grid; place-items:center; }
+  .mark svg { width:20px; height:20px; }
+  nav a { margin-left:22px; font-size:14px; color:var(--muted); }
+  nav a:hover { color:var(--navy); }
+  .hero { background:var(--navy); color:#fff; padding:96px 0 88px; }
+  .hero h1 { font-size:clamp(32px,5vw,52px); line-height:1.15; max-width:720px; font-weight:700; }
+  .hero p { margin-top:18px; max-width:560px; color:#C9D2DC; font-size:18px; }
+  .btns { margin-top:32px; display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { padding:12px 22px; border-radius:6px; font-weight:600; font-size:15px; }
+  .btn.primary { background:#fff; color:var(--navy); }
+  .btn.ghost { border:1px solid var(--silver); color:#fff; }
+  section { padding:72px 0; }
+  h2 { font-size:28px; color:var(--navy); margin-bottom:10px; }
+  .lead { color:var(--muted); max-width:620px; margin-bottom:36px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
+  .card { background:var(--soft); border:1px solid #E4E8ED; border-radius:10px; padding:22px; }
+  .card h3 { font-size:17px; color:var(--navy); margin-bottom:6px; }
+  .card p { font-size:14.5px; color:var(--muted); }
+  .tag { display:inline-block; font-size:11px; letter-spacing:.02em; text-transform:uppercase; color:#fff; background:var(--navy2); padding:2px 8px; border-radius:20px; margin-bottom:10px; }
+  .tag.soon { background:var(--silver); color:var(--navy); }
+  .cta { background:var(--soft); text-align:center; }
+  .cta .btn.primary { background:var(--navy); color:#fff; display:inline-block; margin-top:8px; }
+  footer { border-top:1px solid #E4E8ED; padding:28px 0; font-size:13px; color:var(--muted); }
+  footer .row { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  @media (max-width:640px){ nav{display:none} .hero{padding:64px 0} }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M12 2 L21 20 L12 16 L3 20 Z" fill="#fff"/></svg></span>
+      AERO GUILD
+    </a>
+    <nav>
+      <a href="#learn">Learn</a>
+      <a href="#community">Community</a>
+      <a href="#safety">Safety</a>
+      <a href="#join">Join</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Explore the world of aviation.</h1>
+    <p>Learn, connect and advance with a global aviation community.</p>
+    <div class="btns">
+      <a class="btn primary" href="#learn">Explore aviation</a>
+      <a class="btn ghost" href="#join">Join community</a>
+    </div>
+  </div>
+</div>
+
+<section id="learn">
+  <div class="wrap">
+    <h2>Learn</h2>
+    <p class="lead">Clear, accurate explainers on how aviation really works, written by people who are studying and working in the field.</p>
+    <div class="grid">
+      <div class="card"><span class="tag">Live first</span><h3>Aviation Foundations</h3><p>How aircraft fly, how engines and systems work, and what the different careers involve.</p></div>
+      <div class="card"><span class="tag">Live first</span><h3>AME Education</h3><p>EASA Part-66 topics explained in plain language.</p></div>
+      <div class="card"><span class="tag soon">Coming</span><h3>Pilot Education</h3><p>Pathways, licences and real-world training advice.</p></div>
+      <div class="card"><span class="tag soon">Coming</span><h3>Flight Simulation</h3><p>Learn airliner procedures from cold and dark in MSFS.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="community" style="background:var(--soft)">
+  <div class="wrap">
+    <h2>Community</h2>
+    <p class="lead">Ask working engineers, pilots, ground handlers and cabin crew about the journey, the work and the hard parts.</p>
+    <div class="grid">
+      <div class="card"><h3>Ask the Pro</h3><p>Q&amp;A with verified aviation professionals.</p></div>
+      <div class="card"><h3>Telegram Channel</h3><p>Weekly explainers, news and discussion.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="safety">
+  <div class="wrap">
+    <h2>Safety and Case Studies</h2>
+    <p class="lead">Lessons from real aviation events, including the moments where harm was narrowly avoided. We learn from them; we don't assign blame.</p>
+    <div class="grid">
+      <div class="card"><span class="tag soon">Coming</span><h3>Case Studies</h3><p>In-depth write-ups with timelines, causes and what changed.</p></div>
+      <div class="card"><span class="tag soon">Coming</span><h3>Near-Misses</h3><p>What went right when things nearly went wrong.</p></div>
+      <div class="card"><span class="tag soon">Coming</span><h3>Aviation News</h3><p>Short, sourced daily updates.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="join" class="cta">
+  <div class="wrap">
+    <h2>Join AERO GUILD</h2>
+    <p class="lead" style="margin:0 auto 20px">We're just getting started. Come say hello and tell us what you'd like explained first.</p>
+    <!-- Replace the # below with your Telegram channel link -->
+    <a class="btn primary" href="#">Join on Telegram</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap row">
+    <span>© AERO GUILD. The Global Aviation Community.</span>
+    <span>Educational content. Not a substitute for approved training.</span>
+  </div>
+</footer>
+</body>
+</html>
